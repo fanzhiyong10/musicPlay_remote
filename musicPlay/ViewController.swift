@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         aRect.origin.y += 50
         secondLabel = UILabel(frame: aRect)
         secondLabel.text = "测试: 第二个 label"
+        secondLabel.textColor = .red
         self.view.addSubview(self.secondLabel)
     }
 
