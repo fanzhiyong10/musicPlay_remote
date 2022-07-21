@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         var aRect = CGRect(x: 10, y: 60, width: 200, height: 30)
         testLabel = UILabel(frame: aRect)
         testLabel.text = "测试label"
+        testLabel.textColor = .red
         self.view.addSubview(self.testLabel)
         
         
