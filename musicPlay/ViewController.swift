@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.createLabel()
     }
 
+    func createLabel() {
+        var aRect = CGRect(x: 10, y: 10, width: 200, height: 30)
+        label = UILabel(frame: aRect)
+        label.text = "测试label"
+        self.view.addSubview(self.label)
+    }
 
 }
 
