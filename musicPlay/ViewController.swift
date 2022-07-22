@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         self.createLabel()
         
-        self.view.backgroundColor = .systemBlue
+        self.view.backgroundColor = .systemCyan
     }
 
     func createLabel() {
