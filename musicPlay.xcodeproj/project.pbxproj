@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66766A56288BA5A80028176B /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66766A55288BA5A80028176B /* Sound.swift */; };
+		66766A59288BD7FE0028176B /* ConfigureOfColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66766A58288BD7FE0028176B /* ConfigureOfColor.swift */; };
 		66A32E9C288981220078E46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A32E9B288981220078E46F /* AppDelegate.swift */; };
 		66A32E9E288981220078E46F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A32E9D288981220078E46F /* SceneDelegate.swift */; };
 		66A32EA0288981220078E46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A32E9F288981220078E46F /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66766A55288BA5A80028176B /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		66766A58288BD7FE0028176B /* ConfigureOfColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureOfColor.swift; sourceTree = "<group>"; };
 		66A32E98288981220078E46F /* musicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A32E9B288981220078E46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A32E9D288981220078E46F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66766A52288BA5640028176B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				66766A55288BA5A80028176B /* Sound.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66766A53288BA5720028176B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		66766A54288BA57D0028176B /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		66766A57288BD7ED0028176B /* color */ = {
+			isa = PBXGroup;
+			children = (
+				66766A58288BD7FE0028176B /* ConfigureOfColor.swift */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
 		66A32E8F288981220078E46F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +133,10 @@
 		66A32E9A288981220078E46F /* musicPlay */ = {
 			isa = PBXGroup;
 			children = (
+				66766A57288BD7ED0028176B /* color */,
+				66766A54288BA57D0028176B /* res */,
+				66766A53288BA5720028176B /* view */,
+				66766A52288BA5640028176B /* model */,
 				66A32E9B288981220078E46F /* AppDelegate.swift */,
 				66A32E9D288981220078E46F /* SceneDelegate.swift */,
 				66A32E9F288981220078E46F /* ViewController.swift */,
@@ -258,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66766A59288BD7FE0028176B /* ConfigureOfColor.swift in Sources */,
 				66A32EA0288981220078E46F /* ViewController.swift in Sources */,
 				66A32E9C288981220078E46F /* AppDelegate.swift in Sources */,
 				66A32E9E288981220078E46F /* SceneDelegate.swift in Sources */,
+				66766A56288BA5A80028176B /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
