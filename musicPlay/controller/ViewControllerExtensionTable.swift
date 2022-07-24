@@ -41,11 +41,17 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         // 3.2 NSLayoutConstraint
         let safe = self.view.safeAreaLayoutGuide
         NSLayoutConstraint.activate([
-            self.tableView.topAnchor.constraint(equalTo: safe.topAnchor),
+            self.tableView.topAnchor.constraint(equalTo: self.playContentView.bottomAnchor, constant: 20),
             self.tableView.bottomAnchor.constraint(equalTo: safe.bottomAnchor),
             self.tableView.leadingAnchor.constraint(equalTo: safe.leadingAnchor),
             self.tableView.trailingAnchor.constraint(equalTo: safe.trailingAnchor),
         ])
+//        NSLayoutConstraint.activate([
+//            self.tableView.topAnchor.constraint(equalTo: safe.topAnchor),
+//            self.tableView.bottomAnchor.constraint(equalTo: safe.bottomAnchor),
+//            self.tableView.leadingAnchor.constraint(equalTo: safe.leadingAnchor),
+//            self.tableView.trailingAnchor.constraint(equalTo: safe.trailingAnchor),
+//        ])
     }
 
     /// 行数量
