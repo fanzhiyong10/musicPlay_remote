@@ -80,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6641D01F288D8C4F00E3188A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				66A32E9F288981220078E46F /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		66766A52288BA5640028176B /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +141,13 @@
 		66A32E9A288981220078E46F /* musicPlay */ = {
 			isa = PBXGroup;
 			children = (
+				6641D01F288D8C4F00E3188A /* controller */,
 				66766A57288BD7ED0028176B /* color */,
 				66766A54288BA57D0028176B /* res */,
 				66766A53288BA5720028176B /* view */,
 				66766A52288BA5640028176B /* model */,
 				66A32E9B288981220078E46F /* AppDelegate.swift */,
 				66A32E9D288981220078E46F /* SceneDelegate.swift */,
-				66A32E9F288981220078E46F /* ViewController.swift */,
 				66A32EA1288981220078E46F /* Main.storyboard */,
 				66A32EA4288981240078E46F /* Assets.xcassets */,
 				66A32EA6288981240078E46F /* LaunchScreen.storyboard */,

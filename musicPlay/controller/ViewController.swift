@@ -43,6 +43,13 @@ class ViewController: UIViewController {
     func loadData() {
         self.allSounds = Sound.createAllSounds()
     }
+    
+    /// 播放按钮的视图
+    var playContentView: UIView!
+    var playButton: UIButton!
+    func createPlayContentView() {
+        
+    }
 }
 
 /// 表单
@@ -52,7 +59,7 @@ class ViewController: UIViewController {
 ///  - 行高
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
-    /// tableView
+    /// tableView生成及设置
     ///
     /// 设置
     ///  - 注册
